@@ -6,6 +6,7 @@
   width: 80%;
   height: 600px;
 }
+/* staff outline */
 #staff {
   position: absolute;
   width: 100%;
@@ -39,19 +40,26 @@
   bottom: -50%;
   left: -1%;
 }
+/* note and bar line classes */
+.bar-line {
+  position: absolute;
+  box-sizing: border-box;
+  height: 100%;
+  border: 1px solid black;
+}
 .open {
   position: absolute;
   box-sizing: border-box;
   height: 26%;
-  width: 2.5%;
+  width: 2%;
   border: 2px solid black;
   border-radius: 73% 50% 73% 50%;
 }
 .filled {
   position: absolute;
   box-sizing: border-box;
-  height: 26%;
-  width: 2.5%;
+  height: 25%;
+  width: 2%;
   border: 2px solid black;
   background-color: black;
   border-radius: 73% 50% 73% 50%;
@@ -61,14 +69,12 @@
   height: 70%;
   border: 1px solid black;
 }
-#note-1 {
-  left: 15%;
-  bottom: 25%;
-}
-#line-1 {
-  left: 17.3%;
-  bottom: 40%;
-}
-#note-2 {
-  
+.dot {
+  position: absolute;
+  box-sizing: border-box;
+  height: 6%;
+  width: 0.5%;
+  background-color: black;
+  border: solid black;
+  border-radius: 50%;
 }
