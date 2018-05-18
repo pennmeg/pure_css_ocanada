@@ -34,11 +34,29 @@
 #f {
   top: 0%;
 }
+/* images */
 #treble {
   position: absolute;
   height: 180%;
   bottom: -50%;
   left: -1%;
+}
+#bflat {
+  position: absolute;
+  height: 50%;
+  bottom: 37%;
+  left: 5%;
+}
+#commontime {
+  position: absolute;
+  height: 110%;
+  left: 9%;
+}
+#rest {
+  position: absolute;
+  height: 70%;
+  right: 33%;
+  top: 7%;
 }
 /* note and bar line classes */
 .bar-line {
@@ -58,7 +76,7 @@
 .filled {
   position: absolute;
   box-sizing: border-box;
-  height: 25%;
+  height: 26%;
   width: 2%;
   border: 2px solid black;
   background-color: black;
@@ -77,4 +95,22 @@
   background-color: black;
   border: solid black;
   border-radius: 50%;
+}
+.f {
+  bottom: 0%;
+}
+.a {
+  bottom: 25%;
+}
+.c {
+  top: 25%;
+}
+.g {
+  bottom: 13%;
+}
+.b {
+  bottom: 40%;
+}
+.d {
+  bottom: 60%;
 }
