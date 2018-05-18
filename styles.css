@@ -1,0 +1,74 @@
+#box {
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  width: 80%;
+  height: 600px;
+}
+#staff {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  border-right: 2px solid black;
+}
+.lines {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid black;
+}
+#e {
+  bottom: 0%;
+}
+#g {
+  bottom: 25%;
+}
+#b {
+ bottom: 50%;
+}
+#d {
+  top: 25%;
+}
+#f {
+  top: 0%;
+}
+#treble {
+  position: absolute;
+  height: 180%;
+  bottom: -50%;
+  left: -1%;
+}
+.open {
+  position: absolute;
+  box-sizing: border-box;
+  height: 26%;
+  width: 2.5%;
+  border: 2px solid black;
+  border-radius: 73% 50% 73% 50%;
+}
+.filled {
+  position: absolute;
+  box-sizing: border-box;
+  height: 26%;
+  width: 2.5%;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 73% 50% 73% 50%;
+}
+.note-line {
+  position: absolute;
+  height: 70%;
+  border: 1px solid black;
+}
+#note-1 {
+  left: 15%;
+  bottom: 25%;
+}
+#line-1 {
+  left: 17.3%;
+  bottom: 40%;
+}
+#note-2 {
+  
+}
