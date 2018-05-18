@@ -21,6 +21,19 @@
 #note-3 {
   left: 24%;
 }
+#line-3 {
+  left: 24%;
+  top: 40%;
+}
+#eight-3 {
+  position: absolute;
+  height: 48%;
+  left: 24.4%;
+  top: 62%;
+  border: 1px solid black;
+  transform: rotate(20deg);
+  border-radius: 0% 100% 0% 0%;
+}
 #bar-1 {
   left: 28%;
 }
@@ -28,7 +41,7 @@
   left: 30%;
 }
 #line-4 {
-  left: 31.7%;
+  left: 31.8%;
   bottom: 11%;
 }
 #dot-4 {
@@ -80,7 +93,7 @@
   left: 59%;
 }
 #line-10 {
-  left: 60.7%;
+  left: 60.8%;
 }
 #dot-10 {
   left: 61.5%;
