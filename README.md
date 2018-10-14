@@ -1,7 +1,5 @@
 ## Images Using Pure CSS
 
-# Day 7
-
 Other Pure CSS Images
 
 * https://github.com/pennmeg/pure_css_image
